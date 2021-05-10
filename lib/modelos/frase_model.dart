@@ -32,24 +32,5 @@ return FraseModel.fromJson(json);
 
 
 
-//FraseModel._fromJson(Map<String, dynamic> json) {
-//    _frase = json['frase'];
- //   _autor = json['autor'];
- // }
-
-
-//static Future <FraseModel> _consulta() async{
-//var url = Uri.parse('https://api.senac.estevaorada.com/api/frase');
-//var resposta = await get(url);
-//var json = jsonDecode(resposta.body);
-//return FraseModel._fromJson(json);
-//}
-
-
-//static Future <double> gerar (String frase, String autor)async{
-//FraseModel m = await FraseModel._consulta();
-//return m._frase + m._autor;
-//}
-
 
 }
